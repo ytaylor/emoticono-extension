@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Emoticonos Aleatorios",
+    "version": "1.0",
+    "description": "Muestra un emoticono cada cierto tiempo",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "notifications",
+        "alarms"
+    ]
+}
